@@ -6,6 +6,9 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
+import EmailIcon from '@mui/icons-material/Email';
 import Navbar from "../../components/Navbar";
 import { db } from "../../firebase/config";
 import { collection, addDoc, serverTimestamp } from "@firebase/firestore";
@@ -49,25 +52,28 @@ const Contact = () => {
       <div className="container">
         <span className="big-circle"></span>
         {/* <img src="img/shape.png" className="square" alt="" /> */}
+        
         <div className="form">
           <div className="contact-info">
             <h3 className="title">Let's get in touch</h3>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              dolorum adipisci recusandae praesentium dicta!
+              We,at Rozgaarr, are available 24/7 for our users . Feel free to contact us!
             </p>
 
             <div className="info">
               <div className="information">
-                <img src="img/location.png" className="icon" alt="" />
-                <p>VJTI college,Matunga,Mumbai-400019,Maharashtra,India</p>
+                {/* <img src="img/location.png" className="icon" alt="" /> */}
+                <LocationOnIcon/> &nbsp;
+                <p>VJTI college,Mumbai,Maharashtra,India</p>
               </div>
               <div className="information">
-                <img src="img/email.png" className="icon" alt="" />
+                {/* <img src="img/email.png" className="icon" alt="" /> */}
+                <EmailIcon/> &nbsp;
                 <p>rozgaarr22@gmail.com</p>
               </div>
               <div className="information">
-                <img src="img/phone.png" className="icon" alt="" />
+                {/* <img src="img/phone.png" className="icon" alt="" /> */}
+                <PhoneIcon/> &nbsp;
                 <p>+91-4754478444</p>
               </div>
             </div>

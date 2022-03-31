@@ -293,6 +293,9 @@ const Header = () => {
         <a href="/contact">
           Contact Us
         </a>
+        <a href="/faq">
+          FAQ
+        </a>
         {/* <a href="/login">
           <Button>Login</Button>
         </a> */}
@@ -324,6 +327,9 @@ const Header = () => {
         <a href="/jobs">Jobs</a>
         <a href="/contact" onClick={(e) => handleClick("contact", e)}>
           Contact Us
+        </a>
+        <a href="/faq">
+          FAQ
         </a>
         {/* <a href="/login">
           <Button>Login</Button>

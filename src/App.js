@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Jobs from "./Sections/JobsPg/Jobs";
 import Contact from "./Sections/Contact Us/Contact";
 import PopUp from "./components/PopUp/PopUp";
+import FAQ from './Sections/FAQ/faq'
 
 // import FormComponent from "./Sections/UserRegistration/FormComponent";
 
@@ -50,6 +51,7 @@ const App = () => {
               {/* <Route exact path="/user" element={<FormComponent />} />
             <Route exact path="/company" element={<FormComponentCompany />} /> */}
               <Route exact path="/jobs" element={<Jobs />} />
+              <Route exact path="/faq" element={<FAQ />} />
             </Routes>
             <PopUp sizeInc={sizeIncrement} sizeDec={sizeDecrement} />
             <Footer />

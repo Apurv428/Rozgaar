@@ -66,6 +66,9 @@ const Footer1 = () => {
               <li>
                 <a href="/jobs">Jobs</a>
               </li>
+              <li>
+                <a href="/faq">FAQ</a>
+              </li>
             </ul>
           </div>
           <div className="col">

@@ -231,6 +231,9 @@ const Navbar = () => {
         <a href="/user">Job Seekers</a> */}
         <a href="/jobs">Jobs</a>
         <a href="/contact">Contact Us</a>
+        <a href="/faq">
+          FAQ
+        </a>
         {/* <a href="/login">
           <Button>Login</Button>
         </a> */}
@@ -255,6 +258,9 @@ const Navbar = () => {
         <a href="/user">Job Seekers</a> */}
         <a href="/jobs">Jobs</a>
         <a href="/contact">Contact Us</a>
+        <a href="/faq">
+          FAQ
+        </a>
         {/* <a href="/login">
           <Button>Login</Button>
         </a> */}
