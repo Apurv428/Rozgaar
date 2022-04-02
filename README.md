@@ -1,3 +1,78 @@
+<h1 align="center">
+  <a href="https://github.com/psankhe28/Rozgaarr">
+    <img src="https://lh3.googleusercontent.com/njNb85g7YYDY2l2tOXtW2RI879x_VP10RZmM8Zt3lRY_b7h5XNpSk8YMrQS6NmbVfKSN13x2zW-rf1eJut6JLQAv__2HIgsBYAQzyAdDb2ERzlDJy5mlNl0VVr-35itoRjJ1BIIGJA=w2400" alt="Rozgaarr" width="400" height="250">
+  </a>
+  <br>
+  Rozgaarr
+</h1>
+
+<div align="center">
+   <strong>Rozgaarr</strong> - Job portal for specially abled people! <br>
+  Google Solution Challenge, 2022<br> <br>
+</div>
+<hr>
+
+# Rozgaarr
+
+<table>
+  <tr>
+    <td>
+      Rozgaarr aims to be a one-stop <strong>Progressive Web App (PWA)</strong> that acts like a <strong>Job Portal</strong> for specially abled people. It helps connect the companies with the disabled workforce while promoting a positive environment for people wih special needs to interact. Rozgaarr's goal is to abide by all <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">WCAG rules</a> by following <a href="https://www.w3.org/WAI/standards-guidelines/aria/">WAI-ARIA</a> protocols, and provide the <strong>best accessibility score</strong> to the user.
+  </td>
+ </tr>
+</table>
+
+
+## Resources 🔨
+
+- [Rozgaarr](https://rozgaarr.vercel.app/)
+
+## Features :man_technologist:
+
+#### Added
+- The entire website is designed with accessibility at the forefront.
+- We built a button that allows you to modify the size of the text. 
+- Furthermore, we incorporated how to use contrast in the website, highlight links,an option to increase the cursor size, etc using the <strong>Userway</strong>     tool to make the website more accessible to differently abled persons based on their needs. 
+- We made the website a progressive web app.
+- Companies can register their job positions, and people with special needs can apply for those jobs.
+- Companies can hire test candidates for accessibility testing of their products.
+- Backend Connectivity using firebase.
+
+#### Future Scope
+- Expand our sphere of service for not only differently abled people, but also for acid attack victims, transgender people who unfortunately gets detached from the   main labor force because of the socio norms of our country.
+- Voice Navigation, voice control and Google assistant
+- Authentication using face ID login
+- Add resume and disability certificate uploading for the user
+- Payment Gateway Integration
+
+## Tech Stack :rocket:
+
+Client: :computer:
+- HTML
+- CSS
+- JS
+- React JS
+- Material UI
+
+Server: :desktop_computer:
+- Firebase
+
+## Description 	:mag_right:
+#### UI design:
+- The UI is compatible according to the user's need.
+- There are options to change the font-size, clickable link formatting, button contrast, text spacing etc as an accessibility button.
+
+#### Backend Connecivity:
+- Backend Connectivity using firebase is implemented.
+- Jobs are displayed to the user according to their preferences. 
+- Recruiters can add job details and it is stored in the backend.
+
+## Team Members:
+- [Pratiksha Sankhe](https://github.com/psankhe28)
+- [Apurv Sonawane](https://github.com/Apurv428)
+
+## How to run
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -31,7 +106,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Note: this is a one-way operation. Once you `eject`, you can't go back!
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
